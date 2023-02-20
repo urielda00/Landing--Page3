@@ -17,7 +17,8 @@ body{
 
 
 .popup{
-  width: 400px;
+  width: 40%;
+  height: 45%;
   background: #fff;
   border-radius: 6px;
   position: absolute;
@@ -39,7 +40,7 @@ body{
 }
 
 .popup img{
-  width: 100px;
+  width: 20%;
   margin-top: -50px;
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -58,4 +59,12 @@ body{
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:768px){
+  .popup button{
+    width: 85%;
+    margin-top: 20%;
+  }
+
 }
