@@ -64,7 +64,11 @@ body{
 @media (max-width:768px){
   .popup button{
     width: 85%;
-    margin-top: 20%;
+    margin-top: 25%;
+  }
+  .popup{
+    width: 55%;
+    height: 60%;
   }
 
 }
