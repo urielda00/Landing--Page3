@@ -1,12 +1,14 @@
-let refresh= document.getElementById('logo');
-    let reload=function(){
-      window.location.reload()};
-    refresh.onclick=reload;
+//Logo refresh the page:
+   let refresh= document.getElementById('logo');
+   let reload=function(){
+   window.location.reload()
+   };
+   refresh.onclick=reload;
 
 
-    //popup Message:
+    //Popup thanks message:
     let popup= document.getElementById('popup')
-   function openPopup(){
+    function openPopup(){
       popup.classList.add('open-popup')
     }
     function closePopup(){
